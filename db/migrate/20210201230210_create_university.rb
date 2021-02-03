@@ -1,11 +1,11 @@
 class CreateUniversity < ActiveRecord::Migration[6.1]
   def change
-    create_table :universities do |t|
-      t.string :name
-      t.string :cnpj
-      t.string :school_type
+    create_table :universities do |u|
+      u.string :name
+      u.string :cnpj
+      u.string :school_type
 
-      t.timestamps
+      u.timestamps
     end
   end
 end
