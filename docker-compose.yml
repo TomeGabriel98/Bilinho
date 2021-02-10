@@ -9,8 +9,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command: sh -c "bundle install && bundle exec rails s -b 0.0.0.0"
-    #command: sh -c "while true; do sleep 60; done"
+    #command: sh -c "bundle install && bundle exec rails s -b 0.0.0.0"
+    command: sh -c "bundle install && while true; do sleep 60; done"
     depends_on:
       - postgres
     ports:

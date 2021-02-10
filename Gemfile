@@ -40,3 +40,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'rubocop-rails', require: false
+
+# CPF/CNPJ validation
+gem 'cpf_cnpj', '~> 0.4'
+
+gem 'rspec-rails', '~> 4.0.2'
