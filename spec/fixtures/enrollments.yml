@@ -1,0 +1,17 @@
+Matricula1:
+  id: 1
+  full_price: 500.50
+  max_payments: 2
+  payment_day: 15
+  course_name: Administração
+  university_id: 1
+  student_id: 1
+
+Matricula2:
+  id: 2
+  full_price: 200.25
+  max_payments: 2
+  payment_day: 15
+  course_name: Gestão Social
+  university_id: 1
+  student_id: 1

@@ -44,4 +44,8 @@ gem 'rubocop-rails', require: false
 # CPF/CNPJ validation
 gem 'cpf_cnpj', '~> 0.4'
 
+gem 'validates_cpf_cnpj'
+
 gem 'rspec-rails', '~> 4.0.2'
+
+gem 'ffaker', '~> 2.8'

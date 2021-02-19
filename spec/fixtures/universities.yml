@@ -1,0 +1,11 @@
+Universidade:
+  id: 1
+  name: Universidade
+  cnpj: 60081803000140
+  school_type: Universidade
+
+Escola:
+  id: 2
+  name: Escola
+  cnpj: 34528330000176
+  school_type: Escola

@@ -1,0 +1,8 @@
+Aluno:
+  id: 1
+  name: Aluno
+  cpf: 36538050077
+  birthday: 26/10/1998
+  cellphone: 12982386448
+  gender: M
+  payment_method: Boleto

@@ -1,0 +1,11 @@
+Fatura1:
+  offered_price: 250.25
+  due_date: 15/03/2023
+  enrollment_id: 1
+  status: Aberta
+
+Fatura2:
+  offered_price: 250.25
+  due_date: 15/04/2023
+  enrollment_id: 1
+  status: Aberta

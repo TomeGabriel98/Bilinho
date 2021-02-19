@@ -4,8 +4,8 @@ RSpec.describe University, type: :model do
   describe 'when all university data is valid' do
     let(:universities) do
       [
-        University.create(name: 'Escola', cnpj: nil, school_type: nil),
-        University.create(name: 'Faculdade', cnpj: '123456789', school_type: 'universidade')
+        University.new(name: 'Instituição', cnpj: nil, school_type: nil),
+        University.new(name: 'Faculdade', cnpj: '73875198000120', school_type: 'Universidade')
       ]
     end
 
@@ -17,14 +17,11 @@ RSpec.describe University, type: :model do
   end
 
   describe 'when data is invalid' do
-    University.create(name: 'Faculdade teste', cnpj: '1234567890', school_type: 'universidade')
     let(:universities) do
       [
-        University.create(name: 'Faculdade A', cnpj: 'invalid_cnpj', school_type: 'creche'),
-        University.create(name: nil, cnpj: '123456789', school_type: 'universidade'),
-        University.create(name: 'Faculdade B', cnpj: '123456789', school_type: 'invalid_school'),
-        University.create(name: 'Faculdade teste', cnpj: '1234', school_type: 'escola'),
-        University.create(name: 'Nova ies', cnpj: '1234567890', school_type: 'escola')
+        University.new(name: 'Faculdade A', cnpj: 'invalid_cnpj', school_type: 'Creche'),
+        University.new(name: nil, cnpj: '73875198000120', school_type: 'Universidade'),
+        University.new(name: 'Faculdade B', cnpj: '73875198000120', school_type: 'invalid_school'),
       ]
     end
 
