@@ -1,3 +1,4 @@
+# Basicamente os mesmo comentários do que rolou no enrollment_spec
 require 'rails_helper'
 
 RSpec.describe Invoice, type: :model do

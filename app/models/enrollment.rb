@@ -1,3 +1,4 @@
+# OK
 class Enrollment < ApplicationRecord
   belongs_to :university, optional: false
   belongs_to :student, optional: false

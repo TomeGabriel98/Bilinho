@@ -1,3 +1,4 @@
+# se não me engano uma vez que vc chama @enrollment por exemplo, depois é só chamar enrollment, isso serve para todos os outros @
 class EnrollmentsController < ApplicationController
   def create
     begin

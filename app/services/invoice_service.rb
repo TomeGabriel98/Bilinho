@@ -1,10 +1,11 @@
+# Criar um método para validar os parâmetros necessários para criação
 class InvoiceService
   def initialize(params)
     @offered_price = params[:full_price] / params[:max_payments]
     @payment_day = params[:payment_day]
     @enrollment_id = Enrollment.last.id
     @max_payments = params[:max_payments]
-    @status = "Aberta"
+    @status = "Aberta" # pelo lint usamos aspas simples
   end
 
   def create_invoice

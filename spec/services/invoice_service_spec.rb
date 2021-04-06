@@ -1,3 +1,5 @@
+# Poderia ter testado os dois métodos: create_invoice() e get_initial_payment_day()
+# Tbm poderia ter criado alguns cases quando não fossem enviados alguns parâmetros
 require 'rails_helper'
 
 RSpec.describe InvoiceService do

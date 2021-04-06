@@ -1,3 +1,5 @@
+# Basicamente os mesmo comentários do que rolou no enrollments_controller_spec
+
 require 'rails_helper'
 
 RSpec.describe InvoicesController, type: :request do

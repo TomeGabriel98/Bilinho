@@ -1,3 +1,4 @@
+# faltou testar esse cara
 class ResponseService
   def initialize(params)
     @status = params[:status]

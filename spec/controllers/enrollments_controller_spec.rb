@@ -1,3 +1,5 @@
+# gostei dos testes, mas só tem caminho feliz :smilling:
+# é legal testar mais caminhos tristes, quando não é enviado uma param ou até quando é enviado errado, isso faz com que desenvolvemos um código mais complete, validando vários cenários
 require 'rails_helper'
 
 RSpec.describe EnrollmentsController, type: :request do
